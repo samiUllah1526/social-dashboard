@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import {Header} from "./components/Header"
+import {Stats} from "./components/Stats"
 
 function App() {
   return (
-    <div className="App">
-      Setup done
+    <div className="app">
+      <Header/>
+      <Stats/>
     </div>
   );
 }
